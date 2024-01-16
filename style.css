@@ -1,0 +1,15 @@
+.tab-container {
+    display: flex;
+    gap: 2rem ;
+    margin-bottom: 5rem;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    display: none;
+  }

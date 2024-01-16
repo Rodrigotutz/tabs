@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab" onclick="openTab(event, 'tab1')">Inicio</div>
+        <div class="tab" onclick="openTab(event, 'tab2')">Sobre</div>
+        <div class="tab" onclick="openTab(event, 'tab3')">Contato</div>
+      </div>
+      
+      <div id="tab1" class="tab-content">
+        Página inicial
+      </div>
+      <div id="tab2" class="tab-content">
+        Sobre nós
+      </div>
+      <div id="tab3" class="tab-content">
+        Nosso contato
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
